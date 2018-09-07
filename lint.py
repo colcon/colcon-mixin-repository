@@ -23,7 +23,8 @@ for name in sorted(os.listdir()):
             'rules: {'
             'document-start: {present: false}, '
             'empty-lines: {max: 0}, '
-            'key-ordering: {}'
+            'key-ordering: {}, '
+            'line-length: {max: 999}'
             '}'
             '}',
             '--strict',

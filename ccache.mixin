@@ -1,0 +1,7 @@
+{
+    "build": {
+        "ccache": {
+            "cmake-args": ["-DCMAKE_CXX_COMPILER_LAUNCHER=ccache"]
+        }
+    }
+}

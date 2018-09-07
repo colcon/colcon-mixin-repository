@@ -1,4 +1,5 @@
 mixin:
   - build-testing.mixin
   - build-type.mixin
+  - ccache.mixin
   - test-linters.mixin

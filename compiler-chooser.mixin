@@ -1,0 +1,40 @@
+{
+    "build": {
+        "clang4": {
+            "cmake-args": [
+                "-DCMAKE_CXX_COMPILER=clang++-4",
+                "-DCMAKE_C_COMPILER=clang4"
+            ]
+        },
+        "clang5": {
+            "cmake-args": [
+                "-DCMAKE_CXX_COMPILER=clang++-5",
+                "-DCMAKE_C_COMPILER=clang5"
+            ]
+        },
+        "clang6": {
+            "cmake-args": [
+                "-DCMAKE_CXX_COMPILER=clang++-6",
+                "-DCMAKE_C_COMPILER=clang6"
+            ]
+        },
+        "gcc6": {
+            "cmake-args": [
+                "-DCMAKE_CXX_COMPILER=g++-6",
+                "-DCMAKE_C_COMPILER=gcc6"
+            ]
+        },
+        "gcc7": {
+            "cmake-args": [
+                "-DCMAKE_CXX_COMPILER=g++-7",
+                "-DCMAKE_C_COMPILER=gcc7"
+            ]
+        },
+        "gcc8": {
+            "cmake-args": [
+                "-DCMAKE_CXX_COMPILER=g++-8",
+                "-DCMAKE_C_COMPILER=gcc8"
+            ]
+        }
+    }
+}

@@ -1,2 +1,3 @@
 mixin:
+  - build-testing.mixin
   - build-type.mixin

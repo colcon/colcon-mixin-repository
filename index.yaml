@@ -1,3 +1,4 @@
 mixin:
   - build-testing.mixin
   - build-type.mixin
+  - test-linters.mixin

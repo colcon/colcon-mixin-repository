@@ -1,6 +1,6 @@
 {
     "build": {
-        "coverage": {
+        "coverage-gcc": {
             "cmake-args": [
                 "-DCMAKE_C_FLAGS='-fprofile-arcs -ftest-coverage -DCOVERAGE_RUN=1'",
                 "-DCMAKE_CXX_FLAGS='-fprofile-arcs -ftest-coverage -DCOVERAGE_RUN=1'"

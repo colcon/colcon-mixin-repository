@@ -26,7 +26,7 @@ It is also possible to use the index.yaml and mixin files locally:
 
 ```
 git clone https://github.com/colcon/colcon-mixin-repository.git
-colcon mixin add default file://`pwd`/colcon-mixin-repository/master/index.yaml
+colcon mixin add default file://`pwd`/colcon-mixin-repository/index.yaml
 ```
 
 The index.yaml and .mixin files can then be edited and mixin update run to use those changes.

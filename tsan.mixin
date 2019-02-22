@@ -1,0 +1,10 @@
+{
+    "build": {
+        "tsan-gcc": {
+            "cmake-args": [
+                "-DCMAKE_C_FLAGS='-fsanitize=thread -O1 -g -fno-omit-frame-pointer'",
+                "-DCMAKE_CXX_FLAGS='-fsanitize=thread -O1 -g -fno-omit-frame-pointer'"
+            ]
+        }
+    }
+}

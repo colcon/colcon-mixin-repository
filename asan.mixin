@@ -4,6 +4,7 @@
             "cmake-args": [
                 "-DCMAKE_C_FLAGS='-fsanitize=address -g -fno-omit-frame-pointer'",
                 "-DCMAKE_CXX_FLAGS='-fsanitize=address -g -fno-omit-frame-pointer'"
+                "-DASAN_PRELOAD_ENV_VAR_OVERRIDE=ON"
             ]
         }
     }

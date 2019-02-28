@@ -1,6 +1,6 @@
 {
     "build": {
-        "asan-gcc": {
+        "asan": {
             "cmake-args": [
                 "-DCMAKE_C_FLAGS='-fsanitize=address -g -fno-omit-frame-pointer'",
                 "-DCMAKE_CXX_FLAGS='-fsanitize=address -g -fno-omit-frame-pointer'"

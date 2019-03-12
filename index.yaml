@@ -5,3 +5,4 @@ mixin:
   - ccache.mixin
   - coverage.mixin
   - test-linters.mixin
+  - tsan.mixin

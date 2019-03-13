@@ -1,8 +1,8 @@
 build:
   libcxx:
     cmake-args:
-      - "-DCMAKE_C_COMPILER=clang-6.0"
-      - "-DCMAKE_CXX_COMPILER=clang++-6.0"
+      - "-DCMAKE_C_COMPILER=clang"
+      - "-DCMAKE_CXX_COMPILER=clang++"
       - "-DCMAKE_CXX_FLAGS='-stdlib=libc++ -D_LIBCPP_ENABLE_THREAD_SAFETY_ANNOTATIONS'"
       - "-DFORCE_BUILD_VENDOR_PKG=ON"
       - "--no-warn-unused-cli"

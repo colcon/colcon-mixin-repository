@@ -7,7 +7,7 @@
             "cmake-args": ["-DCMAKE_BUILD_TYPE=RelWithDebInfo"]
         },
         "rel-min-size": {
-            "cmake-args": ["-DCMAKE_BUILD_TYPE=RelMinSize"]
+            "cmake-args": ["-DCMAKE_BUILD_TYPE=MinRelSize"]
         },
         "release": {
             "cmake-args": ["-DCMAKE_BUILD_TYPE=Release"]

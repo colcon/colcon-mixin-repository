@@ -3,8 +3,8 @@
         "debug": {
             "cmake-args": ["-DCMAKE_BUILD_TYPE=Debug"]
         },
-        "min-rel-size": {
-            "cmake-args": ["-DCMAKE_BUILD_TYPE=MinRelSize"]
+        "min-size-rel": {
+            "cmake-args": ["-DCMAKE_BUILD_TYPE=MinSizeRel"]
         },
         "rel-with-deb-info": {
             "cmake-args": ["-DCMAKE_BUILD_TYPE=RelWithDebInfo"]

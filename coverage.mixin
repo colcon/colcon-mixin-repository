@@ -9,9 +9,6 @@
     },
     "test": {
         "coverage-py": {
-            "pytest-args": [
-                "--cov-report=term",
-            ],
             "pytest-with-coverage": true,
         }
     }

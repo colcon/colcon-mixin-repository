@@ -8,7 +8,7 @@
         }
     },
     "test": {
-        "coverage-py": {
+        "coverage-pytest": {
             "pytest-with-coverage": true,
         }
     }

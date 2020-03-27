@@ -6,5 +6,10 @@
                 "-DCMAKE_CXX_FLAGS='--coverage'"
             ]
         }
+    },
+    "test": {
+        "coverage-pytest": {
+            "pytest-with-coverage": true,
+        }
     }
 }

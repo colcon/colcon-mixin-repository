@@ -9,7 +9,8 @@
     },
     "test": {
         "coverage-pytest": {
-            "pytest-with-coverage": true,
+            "pytest-args": ["--cov-report=term"],
+            "pytest-with-coverage": true
         }
     }
 }

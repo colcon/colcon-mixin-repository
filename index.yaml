@@ -4,6 +4,7 @@ mixin:
   - build-type.mixin
   - ccache.mixin
   - clang-libcxx.mixin
+  - compile-commands.mixin
   - coverage.mixin
   - test-linters.mixin
   - tsan.mixin

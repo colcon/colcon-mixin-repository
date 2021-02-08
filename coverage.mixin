@@ -11,6 +11,7 @@
         }
     },
     "test": {
+        "coverage-gcc": { },
         "coverage-pytest": {
             "pytest-args": ["--cov-report=term"],
             "pytest-with-coverage": true

@@ -9,5 +9,7 @@ mixin:
   - gold.mixin
   - instrument-functions.mixin
   - lld.mixin
+  - mold.mixin
+  - ninja.mixin
   - test-linters.mixin
   - tsan.mixin

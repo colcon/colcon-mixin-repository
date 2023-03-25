@@ -12,6 +12,7 @@ mixin:
   - memcheck.mixin
   - mold.mixin
   - ninja.mixin
+  - sccache.mixin
   - shared.mixin
   - test-linters.mixin
   - tsan.mixin

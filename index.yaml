@@ -3,6 +3,7 @@ mixin:
   - build-testing.mixin
   - build-type.mixin
   - ccache.mixin
+  - clang.mixin
   - clang-libcxx.mixin
   - compile-commands.mixin
   - coverage.mixin

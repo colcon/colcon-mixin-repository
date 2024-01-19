@@ -8,7 +8,13 @@ these "shortcuts" available, e.g. for the command line tool `colcon`.
 How to fetch the information
 ----------------------------
 
-To register this repository with `colcon` (using the identifier "default")
+### Prerequisite: get the mixin extension
+First make sure you have installed the `python3-colcon-mixin` apt package,
+or the `colcon-mixin` pip package.
+
+### Register the hosted repository
+
+To register this repository with `colcon` (using the identifier "default"),
 invoke the following command:
 
 ```

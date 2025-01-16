@@ -17,3 +17,4 @@ mixin:
   - shared.mixin
   - test-linters.mixin
   - tsan.mixin
+  - time-trace.mixin

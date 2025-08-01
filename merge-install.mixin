@@ -1,0 +1,7 @@
+{
+    "build": {
+        "merge-install": {
+            "merge-install": "True"
+        }
+    }
+}

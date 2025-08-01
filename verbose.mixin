@@ -1,0 +1,9 @@
+{
+    "build": {
+        "verbose": {
+            "event-handlers": [
+                "console_direct+"
+            ]
+        }
+    }
+}

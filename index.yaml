@@ -17,3 +17,5 @@ mixin:
   - shared.mixin
   - test-linters.mixin
   - tsan.mixin
+  - verbose.mixin
+  - merge-install.mixin
